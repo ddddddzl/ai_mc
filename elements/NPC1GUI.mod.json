@@ -1,0 +1,97 @@
+{
+  "_fv": 28,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 0,
+    "height": 0,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "text": "CHAT",
+          "onClick": {
+            "name": "NPC1GUIDangZheGeJieMianDaKaiShi"
+          },
+          "width": 46,
+          "height": 20,
+          "name": "CHAT",
+          "x": 327,
+          "y": 23
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "INTERACT",
+          "width": 67,
+          "height": 20,
+          "name": "INTERACT",
+          "x": 326,
+          "y": 56
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "NPC1",
+          "width": 46,
+          "height": 20,
+          "name": "NPC1",
+          "x": 38,
+          "y": 17
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "村民",
+          "width": 35,
+          "height": 20,
+          "name": "村民",
+          "x": 39,
+          "y": 48
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "tasks to do",
+          "onClick": {
+            "name": "NPC1buttonclick_tasks"
+          },
+          "width": 82,
+          "height": 20,
+          "name": "tasks to do",
+          "x": 37,
+          "y": 163
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "关闭",
+          "onClick": {
+            "name": "Button_close"
+          },
+          "width": 35,
+          "height": 20,
+          "name": "关闭",
+          "x": 383,
+          "y": 211
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}
